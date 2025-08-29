@@ -17,7 +17,7 @@ public class Subscription {
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
-    @Column(name = "name")
+    @Column(name = "level")
     private Integer level;
 
     @Column(name = "uniqueId", nullable = false, length = 45)
